@@ -126,7 +126,7 @@ main a {
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
-     font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 200;
 }
 .myForm textarea {
