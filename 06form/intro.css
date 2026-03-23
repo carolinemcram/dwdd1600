@@ -134,7 +134,7 @@ div.gallery figure {
 div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
-    color: #f25cca;
+    color: #0455bf;
 }
 
 .myForm fieldset {
@@ -156,7 +156,7 @@ div.gallery figcaption {
 
 .myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
 {
-    border: solid 1px #333;
+    border: solid 1px #0455bf;
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
