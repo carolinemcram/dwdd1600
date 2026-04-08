@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Caroline Cram">
+    <meta name="description" content="Learn about Risograph Machines">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="intro.css">
+    <title>Risograph: Survey </title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Risograph</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">History</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="use.html">Use</a></li>
+            <li class="active"><a href="survey.html">Survey</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the maincontent -->
+    <main>
+        <h1>Take our Survey</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="800-555-1234"></label>
+                <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Method</legend>
+                <label><input type="radio" name="method" value="text">Text Message</label>
+                <label><input type="radio" name="method" value="email">Email</label>
+                <label><input type="radio" name="method" value="call">Phone Call</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What are you interested in?</legend>
+                <label><input type="checkbox" name="supplies" value="chosen"> Supplies/Product Knowledge</label>
+                <label><input type="checkbox" name="info" value="chosen"> Info on Riso Workshops</label>
+                <label><input type="checkbox" name="questions" value="chosen"> Printing Questions</label>
+                <label><input type="checkbox" name="other" value="chosen"> Other</label>
+
+                <label>Skill Level
+                    <select name="level">
+                        <option value="none">Please Select</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            
+            <input type="submit" value="Complete Survey">
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Caroline Cram &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
