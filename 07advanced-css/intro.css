@@ -21,8 +21,35 @@ header span {
     font-weight: 700;
 }
 
+/* small screen navigation */
+@media only screen and (max-width: 600px) {
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display: block;
+    text-align: center;
+    padding: .8rem;
+    color: #f24405;
+    text-decoration: none;
+    border-bottom: solid 1px #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .active a {
+    background-color: #f24405;
+    color: white; 
+    background-image: linear-gradient(to bottom, #f24405, #f25cca )
+}
 
-/*navigation stuff here*/
+}/* end small screens */
+
+
+
+/* LARGE SCREEN NAVIGATION */
+@media only screen and (max-width: 601px) {
+
 nav{
     background-color: #f25cca; 
 }
@@ -49,6 +76,14 @@ nav li.active a {
 nav li a:hover { 
 color: white; 
 }
+    
+}/* end LARGE screens */
+
+
+
+
+
+
 
 /*main stuff here*/
 main {
