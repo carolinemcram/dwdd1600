@@ -233,4 +233,8 @@ footer {
 footer p {
     margin: 0;
 }
-    
+
+header, nav, main, footer {
+    max-width: 64 rem;
+    margin: 0 auto;
+}
