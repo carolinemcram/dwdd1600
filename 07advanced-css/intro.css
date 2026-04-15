@@ -155,7 +155,12 @@ figure.wrapped {
 figure.wrapped img {
     width: 100%;
     height: auto;
+   border-radius: 5px;
 }
+figure.wrapped img:hover {
+ box-shadow: 0px 0px 0 rgba(7,140,3,0.1);
+}
+
 figure.wrapped img {
     text-align: center;
     font-size: .75rem;
