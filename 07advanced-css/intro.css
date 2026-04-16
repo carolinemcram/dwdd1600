@@ -240,6 +240,6 @@ footer p {
 }
 
 header, nav, main, footer {
-    max-width: 64 rem;
+    max-width: 64rem;
     margin: 0 auto;
 }
