@@ -1,4 +1,4 @@
-/*Prevent problems on Different Browsers*/
+/*Prevent Problems on Different Browsers*/
 *  {box-sizing: border-box;}
 
 
@@ -22,7 +22,7 @@ header span {
 }
 
 /* small screen navigation */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 nav ul {
     margin: 0;
     padding: 0;
@@ -43,12 +43,12 @@ nav .active a {
     background-image: linear-gradient(to bottom, #f24405, #f25cca )
 }
 
-}/* end small screens */
+} /* end small screens */
 
 
 
 /* LARGE SCREEN NAVIGATION */
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 801px) {
 
 nav{
     background-color: #f25cca; 
@@ -65,7 +65,7 @@ nav a {
     text-decoration: none;
     font-size: 1.1rem;
     color: #078c03;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 nav li.active a {
